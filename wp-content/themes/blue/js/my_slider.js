@@ -1,0 +1,28 @@
+jQuery(function(){
+  jQuery('#camera_wrap_0').camera({
+    navigation: true,
+    playPause: false,
+    thumbnails: false,
+    navigationHover: false,
+    barPosition: 'top',
+    loader: false,
+    time: 3000,
+    transPeriod:800,
+    alignment: 'center',
+    autoAdvance: true,
+    mobileAutoAdvance: true,
+    barDirection: 'leftToRight', 
+    barPosition: 'bottom',
+    easing: 'easeInOutExpo',
+    fx: 'simpleFade',
+    height: '39.6551724137931%',
+    minHeight: '250px',
+    hover: true,
+    pagination: false,
+    loaderColor     : '#1f1f1f', 
+    loaderBgColor   : 'transparent',
+    loaderOpacity   : 1,
+    loaderPadding   : 0,
+    loaderStroke    : 3,
+    });
+});
